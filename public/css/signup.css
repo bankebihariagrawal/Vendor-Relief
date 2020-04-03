@@ -1,0 +1,298 @@
+.radio{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+#phone-number{
+    width: 500px;
+    margin-left: 230px;
+    margin-top: -30px;
+}
+.recaptcha{
+margin-left: 330px;
+}
+#otp{
+    margin-left: 400px;
+}
+.verify{
+    margin-left: 330px;
+    padding-bottom: 10px;
+}
+
+.verified{
+margin-left: 370px;
+}
+#verificationCode{
+    margin-left: -100px;
+    width: 400px;
+}
+.verifybtn{
+    margin-left: 50px;
+}
+.open{
+    width: 80%;
+}
+.open1{
+    margin-top: -54px;
+    margin-left: 950px;
+    width: 10%;
+}
+
+
+.state{
+    margin-left: 800px;   
+    margin-top: -50px;
+   }
+   .city{
+       margin-left: 800px;   
+       margin-top: -50px;
+      
+   }
+   .number{
+       margin-left: 800px;   
+       margin-top: -50px;
+      
+   }
+   .category{
+       margin-left: 800px;   
+       margin-top: -50px;
+      
+   }
+   .opening{
+       margin-left: 800px;   
+       margin-top: -50px;
+      
+   }
+   .closing{
+       margin-left: 800px;   
+       margin-top: -50px;
+      
+   }
+   .name{
+       margin-left: 800px;   
+       margin-top: -50px;
+      
+   } 
+   .address{
+       margin-left: 800px;   
+       margin-top: -50px;
+      
+   }
+
+   
+.x1:hover{
+    background: grey;
+    }
+    .x2:hover{
+        background: grey;
+        }
+        .x3:hover{
+            background: grey;
+            }
+            .x4:hover{
+                background: grey;
+                }
+             
+     
+    
+/* galaxy s5 */
+@media only screen and (max-width: 400px){
+    body{
+        overflow: hidden;
+    }
+    .new1{
+    margin-left: -350px;
+    position: relative;
+    top: -70px;
+        /* margin-top: -200px; */
+    }
+    .existing1{
+        margin-left: 0px;
+        position: relative;
+    top: -70px;
+        /* margin-top: -150px; */
+    }
+#phone-number{
+position: relative;
+left: -180px;
+top: -70px;
+    width: 150px;
+}
+#recaptcha-container{
+    position: relative;
+    left: -320px;
+    top: -70px;
+}
+#otp{
+    position: relative;
+    left: -320px;
+    top: -70px;
+}
+.verify{
+    position: relative;
+    left: -270px;
+    top: -70px;
+}
+
+.verified{
+    position: relative;
+    left: -270px;
+    top: -70px;
+}
+.verify1{
+    width: 50px;
+}
+}
+    
+    @media only screen and (max-width: 500px){
+        body{
+            overflow: hidden;
+        }
+        .new1{
+        margin-left: -350px;
+        position: relative;
+        top: -70px;
+            /* margin-top: -200px; */
+        }
+        .existing1{
+            margin-left: 0px;
+            position: relative;
+        top: -70px;
+            /* margin-top: -150px; */
+        }
+    #phone-number{
+    position: relative;
+    left: -180px;
+    top: -70px;
+        width: 150px;
+    }
+    #recaptcha-container{
+        position: relative;
+        left: -320px;
+        top: -70px;
+    }
+    #otp{
+        position: relative;
+        left: -320px;
+        top: -70px;
+    }
+    .verify{
+        position: relative;
+        left: -270px;
+        top: -70px;
+    }
+    
+    .verified{
+        position: relative;
+        left: -270px;
+        top: -70px;
+    }
+    .verify1{
+        width: 50px;
+    }
+    }
+    /* iphone s5 */
+    @media only screen and (max-width: 400px) and (max-height:600px) {
+        body{
+            overflow: hidden;
+        }
+        .new1{
+        margin-left: -350px;
+        position: relative;
+        top: -70px;
+            /* margin-top: -200px; */
+        }
+        .existing1{
+            margin-left: 0px;
+            position: relative;
+        top: -70px;
+            /* margin-top: -150px; */
+        }
+    #phone-number{
+    position: relative;
+    left: -180px;
+    top: -70px;
+        width: 150px;
+    }
+    #recaptcha-container{
+        position: relative;
+        left: -320px;
+        top: -70px;
+    }
+    #otp{
+        position: relative;
+        left: -320px;
+        top: -70px;
+    }
+    .verify{
+        position: relative;
+        left: -270px;
+        top: -70px;
+    }
+    
+    .verified{
+        position: relative;
+        left: -270px;
+        top: -70px;
+    }
+    .verify1{
+        width: 50px;
+    }
+    }
+    /* ipad */
+    @media only screen and (min-width: 700px) and (max-width:800px){
+        body{
+            overflow: hidden;
+        }
+        .new1{
+        margin-left: -350px;
+        position: relative;
+        top: -70px;
+            /* margin-top: -200px; */
+        }
+        .existing1{
+            margin-left: 0px;
+            position: relative;
+        top: -70px;
+            /* margin-top: -150px; */
+        }
+    #phone-number{
+    position: relative;
+    left: -180px;
+    top: -70px;
+        width: 150px;
+    }
+    #recaptcha-container{
+        position: relative;
+        left: -320px;
+        top: -70px;
+    }
+    #otp{
+        position: relative;
+        left: -320px;
+        top: -70px;
+    }
+    .verify{
+        position: relative;
+        left: -270px;
+        top: -70px;
+    }
+    
+    .verified{
+        position: relative;
+        left: -270px;
+        top: -70px;
+    }
+    .verify1{
+        width: 50px;
+    }
+    }
+    /* ipad pro */
+    @media only screen and (min-width:1000px) and (max-width: 1100px){
+        .new1{
+        font-size: 20px;   
+        }
+            .existing1{
+            font-size: 20px;
+            }
+     
+}

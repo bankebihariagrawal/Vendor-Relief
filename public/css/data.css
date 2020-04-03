@@ -1,0 +1,479 @@
+body{
+    background: url("https://6lli539m39y3hpkelqsm3c2fg-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/tech-mask-shutterstock-1627211260_700x-675x380.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.box1{
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    background:lightgrey;
+    transition: color 1s ease;
+    transition: background 1s ease;
+    
+}
+.box1:hover{
+    /* background-position: 0 100%; */
+    background: #6610f2;
+    color: yellow;
+}
+  
+.box2:hover{
+    /* background-position: 0 100%; */
+    background: #6610f2;
+    color: yellow;
+}
+.box3:hover{
+    /* background-position: 0 100%; */
+    background: #6610f2;
+    color: yellow;
+}
+.box2{
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    background:lightgrey;
+    transition: color 1s ease;
+    transition: background 1s ease;
+    
+
+}
+.box3{
+    text-align: center;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    background:lightgrey;
+    transition: color 1s ease;
+    transition: background 1s ease;
+    
+}
+.margin{
+    padding-top: 10px;
+}
+.margin1{
+    padding-top: 20px;
+    font-size: 40px;
+}
+.margin2{
+    padding-top: 20px;
+    font-size: 40px;
+}
+form{
+    margin-top: 50px;
+}
+.box4{
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    background:lightgrey;
+    transition: background 1s ease;
+    transition: color 1s ease;
+}
+.box5{
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    background:lightgrey;
+    transition: background 1s ease;
+    transition: color 1s ease;
+}
+.box6{
+    text-align: center;
+    margin-top: 10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20%;
+    background:lightgrey;
+    transition: background 1s ease;
+    transition: color 1s ease;
+}
+.box4:hover{
+    /* background-position: 0 100%; */
+    background: #007bff;
+    color: red;
+}
+.box5:hover{
+    /* background-position: 0 100%; */
+    background: #007bff;
+    color: red;
+}
+.box6:hover{
+    /* background-position: 0 100%; */
+    background: #007bff;
+    color: red;
+}
+
+
+@media only screen and (max-width: 400px){
+    
+    .box1{
+        margin-left: 10px;
+        width:100px;
+        height:100px;
+        
+    }
+    .margin{
+        font-size: 15px;
+    }
+    .margin1{
+        margin-top: -20px;
+        font-size: 15px;
+    }
+    .margin2{
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .box3{
+        margin-top: -120px;
+        margin-left: 95px;
+        width:100px;
+        height:100px;
+        
+    }
+    .box2{
+       position: relative;
+       left: 180px;
+       top: -130px;
+        display: flexbox;
+        /* background: lightgrey; */
+        width:100px;
+        height:100px;
+        
+    }
+    .header{
+        margin-top: -30px;
+        font-size: 20px;
+    }
+    .header1{
+        margin-top: -20px;
+       }
+    /* #sts1{
+        height: 25px;
+        } */
+        #checkstate{
+            font-size: 15px;
+        }
+        .box4{
+            margin-top: 15px;
+        margin-left: 0px;
+        width:100px;
+        height:100px;
+        }
+        .box5{
+            margin-top: -100px;
+        margin-left: 200px;
+        width:100px;
+        height:100px;
+        }
+        .footer1{
+            margin-top: -5px;
+            font-size: 20px;
+        }
+}
+@media only screen and (max-width: 500px){
+    
+        .box1{
+        margin-left: 10px;
+        width:100px;
+        height:100px;
+        
+    }
+    .margin{
+        font-size: 15px;
+    }
+    .margin1{
+        margin-top: -20px;
+        font-size: 15px;
+    }
+    .margin2{
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .box3{
+        margin-top: -120px;
+        margin-left: 120px;
+        width:100px;
+        height:100px;
+        
+    }
+    .box2{
+       position: relative;
+       left: 230px;
+       top: -130px;
+        display: flexbox;
+        /* background: lightgrey; */
+        width:100px;
+        height:100px;
+        
+    }
+    .header{
+        margin-top: -30px;
+        font-size: 20px;
+    }
+    .header1{
+        margin-top: -20px;
+       }
+    /* #sts1{
+        height: 25px;
+        } */
+        #checkstate{
+            font-size: 15px;
+        }
+        .box4{
+            margin-top: 15px;
+        margin-left: 30px;
+        width:100px;
+        height:100px;
+        }
+        .box5{
+            margin-top: -100px;
+        margin-left: 220px;
+        width:100px;
+        height:100px;
+        }
+        .footer1{
+            margin-top: -5px;
+            font-size: 20px;
+        }
+}
+
+@media only screen and (max-width: 400px) and (max-height:600px) {
+    
+    .box1{
+        margin-top: 5px;
+        margin-left: 10px;
+        width:100px;
+        height:100px;
+        
+    }
+    .margin{
+        font-size: 15px;
+    }
+    .margin1{
+        margin-top: -20px;
+        font-size: 15px;
+    }
+    .margin2{
+        font-size: 15px;
+        margin-top: -20px;
+    }
+    .box3{
+        margin-top: -120px;
+        margin-left: 95px;
+        width:100px;
+        height:100px;
+        
+    }
+    .box2{
+       position: relative;
+       left: 180px;
+       top: -130px;
+        display: flexbox;
+        /* background: lightgrey; */
+        width:100px;
+        height:100px;
+        
+    }
+    .header{
+        margin-top: -40px;
+        font-size: 15px;
+    }
+    .header1{
+        margin-top: -20px;
+       }
+    /* #sts1{
+        height: 25px;
+        } */
+        #checkstate{
+            font-size: 10px;
+        }
+        .box4{
+            margin-top: 15px;
+        margin-left: 0px;
+        width:100px;
+        height:100px;
+        }
+        .box5{
+            margin-top: -100px;
+        margin-left: 170px;
+        width:100px;
+        height:100px;
+        }
+        .footer1{
+            margin-top: -5px;
+            font-size: 15px;
+        }
+}
+@media only screen and (min-width: 700px) and (max-width:800px){
+    
+    .box1{
+        margin-left: 50px;
+        width:200px;
+        height:200px;
+        
+    }
+    .margin{
+        font-size:30px;
+    }
+    .margin1{
+        margin-top: 0px;
+        font-size: 30px;
+    }
+    .margin2{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .box3{
+        margin-top: -220px;
+        margin-left: 230px;
+        width:200px;
+        height:200px;
+        
+    }
+    .box2{
+       position: relative;
+       left: 400px;
+       top: -230px;
+        display: flexbox;
+        /* background: lightgrey; */
+        width:200px;
+        height:200px;
+        
+    }
+    .header{
+        margin-top: -30px;
+        font-size: 30px;
+    }
+    .header1{
+        margin-top: -20px;
+       }
+    #sts1{
+        height: 70px;
+        }
+        #checkstate{
+            font-size: 30px;
+        }
+        .box4{
+            margin-top: 15px;
+        margin-left: 0px;
+        width:200px;
+        height:200px;
+        }
+        .box5{
+            margin-top: -200px;
+        margin-left: 400px;
+        width:200px;
+        height:200px;
+        }
+        .footer1{
+            margin-top: -5px;
+            font-size: 30px;
+        }
+}
+@media only screen and (min-width:1000px) and (max-width: 1100px){
+    body{
+        overflow: hidden;
+    }
+    nav{
+        height: 80px;
+    }
+    .nav-item{
+        font-size: 20px;
+    }
+
+    .box1{
+        margin-left: 30px;
+        width:300px;
+        height:300px;
+        
+    }
+    .margin{
+        font-size: 45px;
+    }
+    .margin1{
+        margin-top: 20px;
+        font-size: 45px;
+    }
+    .margin2{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    .box3{
+        margin-top: 350px;
+        margin-left: -350px;
+        width:300px;
+        height:300px;
+        
+    }
+    .box2{
+       position: relative;
+       left: 220px;
+       display: flexbox;
+        width:300px;
+        height:300px;
+        
+    }
+    .header{
+        margin-top: -10px;
+        font-size: 45px;
+    }
+    .header1{
+        margin-top: -10px;
+       }
+    #sts1{
+        height: 70px;
+        width: 700px;
+        }
+        .checkstate1{
+            margin-top: -10px;  
+        }
+        #checkstate{
+            margin-left: 100px;
+            height:70px;
+            width: 100px;
+        }
+        .box4{
+            margin-top: 30px;
+        margin-left: 30px;
+        width:300px;
+        height:300px;
+        }
+        .box5{
+            margin-top: 30px;
+        width:300px;
+        height:300px;
+        }
+        .footer1{
+            margin-top: -5px;
+            font-size: 40px;
+        }
+}
+
+
+
+.x1:hover{
+    background: grey;
+    }
+    .x2:hover{
+        background: grey;
+        }
+        .x3:hover{
+            background: grey;
+            }
+            .x4:hover{
+                background: grey;
+                }
+               

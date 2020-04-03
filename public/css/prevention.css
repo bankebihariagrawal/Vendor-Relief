@@ -1,0 +1,107 @@
+
+
+.container{margin: 20px;margin-top: 10px;}
+/* .dropdown:hover{
+    background: lightcyan;
+}
+.trigger:hover{
+color: lightcoral;
+}
+.content:hover{
+color: red;
+} */
+.dropdown .trigger{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+  }
+  .dropdown .trigger::after{
+    content: ">";
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    transform: rotate(90deg) scale(0.5, 1);
+    font-weight: bold;
+    transition: transform 0.3s;
+  }
+  .dropdown .trigger.active::after{
+    transform: rotate(-90deg) scale(0.5, 1);
+  }
+  .dropdown .content{
+    display: none;
+  }
+  .dropdown .content.active{
+    display: block;
+  }
+  
+.x1:hover{
+  background: grey;
+  }
+  .x2:hover{
+      background: grey;
+      }
+      .x3:hover{
+          background: grey;
+          }
+          .x4:hover{
+              background: grey;
+              }
+              
+  @media only screen and (max-width: 400px){
+   .container{
+     margin-left: 0px;
+   }
+  }
+    
+    @media only screen and (max-width: 500px){
+        .container{
+          margin-left: 0px;
+        }
+        
+    }
+    /* iphone s5 */
+    @media only screen and (max-width: 400px) and (max-height:600px) {
+      .container{
+        margin-left: 0px;
+      }
+      
+    }
+    /* ipad */
+    @media only screen and (min-width: 700px) and (max-width:800px){
+      .container{
+        margin-left: 0px;
+        font-size: 30px;
+      }
+      .container1{
+        font-size: 30px;
+      }
+      .navbar-brand{
+        font-size: 30px;
+      }
+      nav{
+
+        font-size: 25px;
+      }
+    }
+    /* ipad pro */
+    @media only screen and (min-width:1000px) and (max-width: 1100px){
+         .container{
+          margin-left: 0px;
+          font-size: 40px;
+        }
+        
+      .navbar-brand{
+        font-size: 25px;
+      }
+        nav{
+          font-size: 25px;
+        }
+        .container1{
+          font-size: 30px;
+        }
+        }
+    
+
+
+

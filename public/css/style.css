@@ -1,0 +1,59 @@
+body{
+    background: url('https://miro.medium.com/max/3840/1*8hmXvN_ShhpaKsn3L2XgOw.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+    
+.x1:hover{
+background: grey;
+}
+.x2:hover{
+    background: grey;
+    }
+    .x3:hover{
+        background: grey;
+        }
+        .x4:hover{
+            background: grey;
+            }
+        .heading{
+    margin-top: 270px;
+    color: lightsalmon;
+    font-size: 100px;
+    text-align: center;
+}
+/* galaxy s5 */
+@media only screen and (max-width: 400px){
+.heading{
+    margin-top: 150px;
+    font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 500px){
+    .heading{
+        margin-top: 150px;
+        font-size: 50px;
+    }
+    
+}
+/* iphone s5 */
+@media only screen and (max-width: 400px) and (max-height:600px) {
+    .heading{
+        margin-top: 150px;
+        font-size: 50px;
+    }
+}
+/* ipad */
+@media only screen and (min-width: 700px) and (max-width:800px){
+    .heading{
+        margin-top: 350px;
+        font-size: 80px;
+    }
+}
+/* ipad pro */
+@media only screen and (min-width:1000px) and (max-width: 1100px){
+    .heading{
+        margin-top: 500px;
+        font-size: 100px;
+    }}

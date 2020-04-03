@@ -1,0 +1,53 @@
+
+.x1:hover{
+    background: grey;
+    }
+    .x2:hover{
+        background: grey;
+        }
+        .x3:hover{
+            background: grey;
+            }
+            .x4:hover{
+                background: grey;
+                }
+              
+.state{
+ margin-left: 800px;   
+ margin-top: -50px;
+}
+.city{
+    margin-left: 800px;   
+    margin-top: -50px;
+   
+}
+.number{
+    margin-left: 800px;   
+    margin-top: -50px;
+   
+}
+.category{
+    margin-left: 800px;   
+    margin-top: -50px;
+   
+}
+.opening{
+    margin-left: 800px;   
+    margin-top: -50px;
+   
+}
+.closing{
+    margin-left: 800px;   
+    margin-top: -50px;
+   
+}
+.name{
+    margin-left: 800px;   
+    margin-top: -50px;
+   
+} 
+.address{
+    margin-left: 800px;   
+    margin-top: -50px;
+   
+}
