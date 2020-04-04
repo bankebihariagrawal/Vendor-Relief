@@ -7,4 +7,3 @@
 ![](https://github.com/bankebihariagrawal/Vendor-Relief/blob/master/Screenshot%202020-04-03%20at%206.24.09%20PM_macbookpro15_front.png)
 ![](https://github.com/bankebihariagrawal/Vendor-Relief/blob/master/Screenshot%202020-04-03%20at%206.24.26%20PM_macbookpro15_front.png)
 ![](https://github.com/bankebihariagrawal/Vendor-Relief/blob/master/Screenshot%202020-04-03%20at%206.24.42%20PM_macbookpro15_front.png)
-![](https://github.com/bankebihariagrawal/Vendor-Relief/blob/master/Screenshot%202020-04-03%20at%206.24.52%20PM_macbookpro15_front.png)
