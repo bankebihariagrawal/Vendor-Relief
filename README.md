@@ -3,7 +3,7 @@
 [VendorRelief](https://vendor-relief.web.app)
 ## Home Page
 ![](https://github.com/bankebihariagrawal/Vendor-Relief/blob/master/Screenshot%202020-04-03%20at%206.21.04%20PM_macbookpro15_front.png)
-## Corona Vireus Spread Data
+## Corona Virus Spread Data
 ![](https://github.com/bankebihariagrawal/Vendor-Relief/blob/master/Screenshot%202020-04-03%20at%206.21.27%20PM_macbookpro15_front.png)
 ## Vendor Shop Details
 ![](https://github.com/bankebihariagrawal/Vendor-Relief/blob/master/Screenshot%202020-04-03%20at%206.21.59%20PM_macbookpro15_front.png)
