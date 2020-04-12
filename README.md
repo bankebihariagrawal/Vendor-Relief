@@ -20,4 +20,4 @@
 ![](https://github.com/bankebihariagrawal/Vendor-Relief/blob/master/Screenshot%202020-04-03%20at%206.24.42%20PM_macbookpro15_front.png)
 
 ## Link to the Android App Repository
-[](https://github.com/plazzy99/VendorRelief)
+[Vendor Relief -> Vatsal Kesarwani](https://github.com/plazzy99/VendorRelief)
