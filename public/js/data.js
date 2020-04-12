@@ -1,5 +1,3 @@
-const state = document.querySelector('#checkState')
-const form = document.querySelector('form');
 let cases = document.querySelector('#cases');
 let death = document.querySelector('#deathes');
 let recovered = document.querySelector('#recovered');
@@ -14,7 +12,34 @@ const data = async() => {
     });
     const data = await response.json();
     return data;
+    
 }
+
+
+const option = document.querySelector('#country');
+data().then(data => {
+    
+    cases.innerHTML = data.total_values.confirmed;
+    death.innerHTML = data.total_values.deaths;
+    recovered.innerHTML = data.total_values.recovered;
+const dada = JSON.stringify(data.state_wise);
+const dada1 = Object.values(data.state_wise)
+
+dada1.forEach(element => {
+  
+
+    html = `<div class="box11">
+    <p  class="state234"  id="country11">${element.state}</p>
+    <p class="state235" id="infections1">${element.confirmed}<br>Infections</p>
+   <p class="state236"  id="deaths1">${element.deaths}<br>Deaths</p>
+   <p class="state237" id="recoveries1">${element.recovered}<br>Recoveries</p> 
+<hr style="background-color: red;" class="hr">
+ </div>`
+ option.innerHTML +=html;
+});
+})
+
+
 
 
     const dataWorld = async() => {
@@ -23,50 +48,38 @@ const data = async() => {
         return data;
     }
     dataWorld().then(data=> {
-        cases.innerHTML = data.cases;
-        death.innerHTML = data.deaths;
-
+ const tick = () => {
+        const before = new Date(data.updated);
+        const now = new Date;
+        const diff = now.getTime() - before.getTime();
+        const  mins = Math.round(diff/1000/60);
+        console.log(mins);
+        document.querySelector('#updated').innerHTML = mins;
+        console.log(mins);
+    };
+    tick();
+    setInterval(tick , 60000);      
+      
     })
     .catch(err => console.log(err) );
-data().then(data=>{
-    recovered.innerHTML = data.total_values.active;
-})
+//search    
+    const search = document.querySelector('.search input');
+    search.addEventListener('keyup' , () => {
+        const term = search.value.trim().toLowerCase();
+        filterto(term);
+        console.log(option);
     
-
-const datastate = document.querySelector('#dataState');
-const state1 = document.querySelector('#sts1');
-const city = document.querySelector('#state');
-const nameState = document.querySelector('#nameState');
-const casesState = document.querySelector('#casesState');
-const nameStateDeath = document.querySelector('#nameStateDeath');
-const casedeathes = document.querySelector('#casedeathes');
-const notice = document.querySelector('.notice');
-// const nameCity = document.querySelector('#nameCity');
-// const caseCity = document.querySelector('#caseCity');
-state.addEventListener('click' , (e) =>{
-    e.preventDefault();
-    datastate.classList.remove('d-none');
-data().then(data=> {
-    const value1 = state1.value; 
-    nameState.innerHTML = `Total Cases <br> (${state1.value})`;
-    nameStateDeath.innerHTML = `Total Deaths <br> (${state1.value})`;
-    if(state1.value == "Andaman & Nicobar")
-    {
-        casesState.innerHTML = data.state_wise["Andaman and Nicobar Islands"].active;
-        casedeathes.innerHTML = data.state_wise["Andaman and Nicobar Islands"].deaths;   
-    }
-    else if(state1.value == "Jammu & Kashmir"){
-        casesState.innerHTML = data.state_wise["Jammu and Kashmir"].active;
-        casedeathes.innerHTML = data.state_wise["Jammu and Kashmir"].deaths; 
-    }
-    else{
-    casesState.innerHTML = data.state_wise[`${state1.value}`].active;
-    casedeathes.innerHTML = data.state_wise[`${state1.value}`].deaths;
-    }       
-    notice.innerHTML ="Last Update on "  + data.total_values.lastupdatedtime
+    })
     
-})
-.catch(err => console.log(err) )
-});
-
-
+    
+    const filterto = (term) => {
+        const array = Array.from(option.children)
+    array.filter((text) => !text.textContent.toLowerCase().includes(term))
+    array.forEach((text) => text.classList.add('filtered'));
+    Array.from(option.children)
+    .filter((text) => text.textContent.toLowerCase().includes(term))
+    .forEach((text) => text.classList.remove('filtered'));
+    
+    }
+    
+    

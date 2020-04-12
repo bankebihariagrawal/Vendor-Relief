@@ -69,13 +69,13 @@ window.onload = function () {
               
                  const now = {
                   ["Phone Number"]: user.phoneNumber,
-                        State: "Empty",
-                        City:  "Empty",
-                        Address:"Empty",  
-                        ["Shop Name"]: "Empty",
-                        ["Shop Category"]:"Empty",
-                              ["Opening Time"] :"Empty",
-                        ["Closing Time"] : "Empty",
+                        State: "",
+                        City:  "",
+                        Address:"",  
+                        ["Shop Name"]: "",
+                        ["Shop Category"]:"",
+                              ["Opening Time"] :"",
+                        ["Closing Time"] : "",
                     
               };
             db.collection('Vendor').doc(user.phoneNumber).set(now).then(() => {
